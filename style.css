@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(221, 218, 218);
+}
+    .container h3{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    header img{
+        width: 220px;
+        height: 200px;
+        object-fit: cover;
+        object-position: 80% 100%;
+        margin: 15px 0 0 15px;
+    }
+    header div{
+        min-width: 500px;
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: top;
+    }
+        header div h1{
+            font-size: 50px;
+            color: #2D4767;
+            margin: 50px 0px 10px 0px;
+        }
+        header div h2{
+            padding-bottom: 25px;
+            border-bottom: 4px solid black;
+            letter-spacing: 3.5px;
+        }
+        header div p{
+            margin-top: 25px;
+        }
+    main .about{
+        background-color: #E4E7EC;
+        margin: 10px 15px 10px 15px;
+        padding: 20px 55px 20px 55px;
+    }
+        main .about p{
+            text-align: justify;
+            margin-top: 15px;
+        }
+    main .techstack{
+        display: inline-block;
+        margin-left: 25px;
+        width: 300px;
+        height: 300px;
+    }
+        main .techstack img{
+            width: 50px;
+            margin: 2px;
+        }
+        main .techstack h3{
+            margin: 15px 0;
+        }
+    main .project{
+        background-color: #E4E7EC;
+        display: inline-block;
+        vertical-align: top;
+        width: 415px;
+        margin-left: 40px;
+        padding: 15px 35px 15px 40px;
+    }
+        main .project h4{
+            margin-top: 25px;
+        }
+    footer{
+        text-align: center;
+        margin-top: 25px;
+        padding-bottom: 15px;
+    }
+        footer img{
+            width: 25px;
+        }
+        footer ul li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+            footer ul li a{
+                color: black;
+            }
+@media only screen and (max-width: 480px){
+    .container h3{
+            text-align: center;
+            letter-spacing: 0;
+            font-size: 3rem;
+        }
+        header{
+            padding-top: 15px;
+        }
+        header img{
+            width: 420px;
+            height: 400px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        header div{
+            min-width: 500px;
+            display: block;
+            text-align: center;
+            margin-left: 0;
+        }
+            header div h1{
+                font-size: 70px;
+                color: #2D4767;
+                margin: 0;
+            }
+            header div h2{
+                padding-bottom: 25px;
+                letter-spacing: 3px;
+                font-size: 1.5rem;
+            }
+            header div p{
+                margin-top: 25px;
+                font-size: 2rem;
+            }
+        main .about{
+            background-color: #E4E7EC;
+            margin: 10px 0 10px 0;
+            padding: 70px 55px 50px 55px;
+        }
+            main .about p{
+                text-align: justify;
+                margin-top: 15px;
+                font-size: 2.1rem;
+            }
+        main .techstack{
+            display: block;
+            margin-left: 25px;
+            width: 600px;
+            height: unset;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+            main .techstack img{
+                width: 110px;
+                margin: 2px;
+            }
+            main .techstack h3{
+                margin: 15px 0;
+            }
+        main .project{
+            display: block;
+            width: 100%;
+            margin-left: 0;
+            padding: 15px 35px 15px 40px;
+        }
+            main .project h4{
+                margin-top: 25px;
+                font-size: 2rem;
+            }
+            .project p{
+                font-size: 2rem;
+            }
+        footer{
+            text-align: center;
+            margin-top: 25px;
+            padding-bottom: 15px;
+        }
+            footer img{
+                width: 25px;
+            }
+            footer ul li{
+                display: inline-block;
+                margin-right: 10px;
+            }
+                footer ul li a{
+                    font-size: 2rem;
+                }
+}
+@media only screen and (min-width: 481px){
+
+}
+@media only screen and (min-width: 1024px){
+
+}
